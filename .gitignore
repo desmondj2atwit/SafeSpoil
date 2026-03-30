@@ -1,0 +1,46 @@
+# Config files
+**/appsettings.Development.json
+
+## Ignore Visual Studio temporary files, build results, and user-specific files
+[Bb]in/
+[Oo]bj/
+.vs/
+*.pdb
+*.suo
+*.user
+*.config.user
+*.resharper
+[Tt]humbs.db
+# Ignore Visual Studio temporary files, build results, and user-specific files
+
+# Ignore Visual Studio Code files (optional, as these are user-specific preferences)
+.vscode/
+# !.vscode/settings.json # Uncomment to include specific .vscode files
+# !.vscode/tasks.json # Uncomment to include specific .vscode files
+# !.vscode/launch.json # Uncomment to include specific .vscode files
+
+# Ignore NuGet packages and files
+*.nupkg
+*.snupkg
+# Packages folder (old style)
+[Pp]ackages/
+# Don't ignore NuGet.config
+!NuGet.config
+
+# Ignore log files
+[Ll]ogs/
+*.log
+
+# Project files
+# Keep the solution file (.sln) and project files (.csproj, etc.)
+# but ignore user-specific project files
+*.csproj.user
+*.sln.user
+
+# Ignore test results
+TestResults/
+
+# Other common files to ignore
+*.cache
+*.opendb
+*.VC.db
